@@ -5,12 +5,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          July 26, 2025
-        </p>
-        <p>
-          Golden, CO
-        </p>
+        <p>Save the date!</p>
+        <p>July 26, 2025</p>
+        <p>Golden, CO</p>
       </header>
     </div>
   );
