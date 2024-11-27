@@ -42,14 +42,14 @@ function App() {
     <div className="App" style={style}>
         <h4 id="save-the-date">save the date</h4>
         <h4 id="celebrate">to celebrate the marriage of</h4>
-        <h1>ZOË & NICK</h1>
+        <h1 id="names">ZOË & NICK</h1>
         <h4 id="date">07.26.25</h4>
         <p id="location">
           <a href="https://www.theeddygolden.com/" style={style}>
-            the Eddy Taproom & Hotel
-          </a>
+            The Eddy Taproom & Hotel
           <br />
-          Golden, Colorado
+          Golden, CO
+          </a>
         </p>
         <p id="info">
           FOR MORE DETAILS, PLEASE EMAIL NBENGTSON.ZHEINS@GMAIL.COM

@@ -28,7 +28,6 @@ body {
   padding-left: 10%;
 
 
-  /* save the date */
   h4 {
     font-weight: normal;
   }
@@ -50,17 +49,15 @@ body {
   }
 
   /* nick & zoe */
-  h1 {
+  #names {
    font-size: 56px;
    font-weight: normal;
    margin-bottom: 0px;
-   /* margin-top: 0px; */
   }
 
-
+  /* location and info */
   p {
     font-size: 30px;
-    margin-bottom: 0px;
   }
 
   #location {
@@ -69,12 +66,13 @@ body {
     a {
       color: var(--text);
       text-decoration: none;
+      line-height: 1.2;
     }
   }
-
 
   p#info {
     margin-top: 24px;
     font-size: 14px;
+    text-decoration: none;
   }
 }
