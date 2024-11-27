@@ -34,12 +34,12 @@ function App() {
     },
   ];
 
-  const getColors = function(max) {
+  const getColors = function (max) {
     const i = Math.floor(Math.random() * max);
     const textColor = colors[i].text;
     const bgColor = colors[i].bg;
     return [textColor, bgColor];
-  }
+  };
 
   const [textColor, bgColor] = getColors(colors.length);
 
@@ -50,20 +50,20 @@ function App() {
 
   return (
     <div className="App" style={style}>
-      <h4 id="save-the-date">save the date</h4>
-      <h4 id="celebrate">to celebrate the marriage of</h4>
-      <h1>ZOË & NICK</h1>
-      <h4 id="date">07.26.25</h4>
-      <p>
-        <a href="https://www.theeddygolden.com/" style={style}>
-          The Eddy Taproom & Hotel
-        </a>
-        <br />
-        Golden, CO
-      </p>
-      <p id="info">
-        FOR MORE DETAILS, PLEASE EMAIL NBENGTSON.ZHEINS@GMAIL.COM
-      </p>
+        <h4 id="save-the-date">save the date</h4>
+        <h4 id="celebrate">to celebrate the marriage of</h4>
+        <h1>ZOË & NICK</h1>
+        <h4 id="date">07.26.25</h4>
+        <p id="location">
+          <a href="https://www.theeddygolden.com/" style={style}>
+            The Eddy Taproom & Hotel
+          </a>
+          <br />
+          Golden, CO
+        </p>
+        <p id="info">
+          FOR MORE DETAILS, PLEASE EMAIL NBENGTSON.ZHEINS@GMAIL.COM
+        </p>
     </div>
   );
 }
