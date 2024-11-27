@@ -1,29 +1,9 @@
-/* :root {
+:root {
   --bg: #D6D8CC;
   --text: #BC9D38;
-} */
-
-/* :root {
-  --bg: #FE4531;
-  --text: #C3EFCA;
-} */
-
-/* :root {
-  --bg: #BEA733;
-  --text: #E0E5E9;
-} */
-
-/* :root {
-  --text: #F3F2A2;
-  --bg: #93901B;
-} */
-
-:root {
-  --text: #F3F2A2;
-  --bg: #7C7354;
 }
 
-:root {
+/* :root {
   --bg: #FF6D2A;
   --text: #7AC8D2;
 }
@@ -34,14 +14,24 @@
 }
 
 :root {
-  --text: #D3793B;
   --bg: #e0b390;
+  --text: #D3793B;
 }
 
 :root {
   --bg: #404C34;
   --text: #D0F16E;
 }
+
+:root {
+  --bg: #93901B;
+  --text: #F3F2A2;
+}
+
+:root {
+  --bg: #BEA733;
+  --text: #E0E5E9;
+} */
 
 body {
   margin: 0;
@@ -50,7 +40,6 @@ body {
 }
 
 .App {
-  /* background-color: #FE4531; */
   background-color: var(--bg);
   min-height: 100vh;
   display: flex;
@@ -73,12 +62,17 @@ body {
 
   #save-the-date {
     font-size: 30px;
-    margin-bottom: -30px;
+    margin-bottom: -20px;
+  }
+
+  #celebrate {
+    margin-bottom: -16px;
   }
 
   #date {
     font-size: 34px;
     margin-bottom: 10px;
+    margin-top: 8px;
   }
 
   /* nick & zoe */
@@ -86,12 +80,18 @@ body {
    font-size: 60px;
    font-weight: normal;
    margin-bottom: 0px;
+   /* margin-top: 0px; */
   }
 
 
   p {
     font-size: 30px;
     margin-bottom: 0px;
+  }
+
+  p#info {
+    margin-top: 24px;
+    font-size: 16px;
   }
 
   a {
