@@ -1,15 +1,101 @@
-.App {
-  text-align: center;
+/* :root {
+  --bg: #D6D8CC;
+  --text: #BC9D38;
+} */
+
+/* :root {
+  --bg: #FE4531;
+  --text: #C3EFCA;
+} */
+
+/* :root {
+  --bg: #BEA733;
+  --text: #E0E5E9;
+} */
+
+/* :root {
+  --text: #F3F2A2;
+  --bg: #93901B;
+} */
+
+:root {
+  --text: #F3F2A2;
+  --bg: #7C7354;
 }
 
-.App-header {
-  background-color: #282c34;
-  font-family: Verdana;
+:root {
+  --bg: #FF6D2A;
+  --text: #7AC8D2;
+}
+
+:root {
+  --bg: #C4C2A9;
+  --text: #CD7C44;
+}
+
+:root {
+  --text: #D3793B;
+  --bg: #e0b390;
+}
+
+:root {
+  --bg: #404C34;
+  --text: #D0F16E;
+}
+
+body {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+.App {
+  /* background-color: #FE4531; */
+  background-color: var(--bg);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  /* text */
+  line-height: 1;
+  color: var(--text);
+  font-family: 'Didact Gothic', sans-serif;
+  text-align: left;
+  padding-left: 10%;
+
+
+  /* save the date */
+  h4 {
+    font-weight: normal;
+  }
+
+  #save-the-date {
+    font-size: 30px;
+    margin-bottom: -30px;
+  }
+
+  #date {
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+
+  /* nick & zoe */
+  h1 {
+   font-size: 60px;
+   font-weight: normal;
+   margin-bottom: 0px;
+  }
+
+
+  p {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  a {
+    color: var(--text);
+    text-decoration: none;
+  }
 }
