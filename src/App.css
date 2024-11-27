@@ -3,36 +3,6 @@
   --text: #BC9D38;
 }
 
-/* :root {
-  --bg: #FF6D2A;
-  --text: #7AC8D2;
-}
-
-:root {
-  --bg: #C4C2A9;
-  --text: #CD7C44;
-}
-
-:root {
-  --bg: #e0b390;
-  --text: #D3793B;
-}
-
-:root {
-  --bg: #404C34;
-  --text: #D0F16E;
-}
-
-:root {
-  --bg: #93901B;
-  --text: #F3F2A2;
-}
-
-:root {
-  --bg: #BEA733;
-  --text: #E0E5E9;
-} */
-
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;

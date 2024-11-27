@@ -2,34 +2,24 @@ import "./App.css";
 
 function App() {
   var colors = [
-    // blue/green
+    // gray/green
     {
       bg: "#D6D8CC",
       text: "#BC9D38",
     },
-    // green/orange
+    // orange/light blue
     {
-      bg: "#C4C2A9",
-      text: "#CD7C44",
-    },
-    // peach/orange
-    {
-      bg: "#e0b390",
-      text: "#D3793B",
+      text: "#a9ded3",
+      bg: "#CD7C44",
     },
     // dark green/bright green
     {
       bg: "#404C34",
       text: "#D0F16E",
     },
-    // green/yellow
+    // mustard green/light blue
     {
-      bg: "#93901B",
-      text: "#F3F2A2",
-    },
-    // mustard/purple
-    {
-      bg: "#BEA733",
+      bg: "#BEB733",
       text: "#E0E5E9",
     },
   ];
@@ -56,10 +46,10 @@ function App() {
         <h4 id="date">07.26.25</h4>
         <p id="location">
           <a href="https://www.theeddygolden.com/" style={style}>
-            The Eddy Taproom & Hotel
+            the Eddy Taproom & Hotel
           </a>
           <br />
-          Golden, CO
+          Golden, Colorado
         </p>
         <p id="info">
           FOR MORE DETAILS, PLEASE EMAIL NBENGTSON.ZHEINS@GMAIL.COM
