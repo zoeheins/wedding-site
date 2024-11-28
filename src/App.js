@@ -40,20 +40,24 @@ function App() {
 
   return (
     <div className="App" style={style}>
-        <h4 id="save-the-date">save the date</h4>
-        <h4 id="celebrate">to celebrate the marriage of</h4>
-        <h1 id="names">ZOË & NICK</h1>
-        <h4 id="date">07.26.25</h4>
-        <p id="location">
-          <a href="https://www.theeddygolden.com/" style={style}>
-            The Eddy Taproom & Hotel
+      <h4 id="save-the-date">Save the date</h4>
+      <h1 id="names">ZOË & NICK</h1>
+      <h4 id="date">07.26.25</h4>
+      <p id="location">
+        <a href="https://www.theeddygolden.com/" style={style}>
+          The Eddy Taproom & Hotel
           <br />
           Golden, CO
-          </a>
+        </a>
+      </p>
+      <p id="info">
+        <p id="info" style={{ marginBottom: "2px" }}>
+          IF YOU HAVE QUESTIONS, PLEASE EMAIL <br />
         </p>
-        <p id="info">
-          FOR MORE DETAILS, PLEASE EMAIL NBENGTSON.ZHEINS@GMAIL.COM
-        </p>
+        <a href="mailto:nbengston.zheins@gmail.com" style={style}>
+          NBENGTSON.ZHEINS@GMAIL.COM
+        </a>
+      </p>
     </div>
   );
 }

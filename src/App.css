@@ -28,6 +28,10 @@ body {
   padding-left: 10%;
 
 
+  /*
+  - Save the date
+  - 07.26.25
+  */
   h4 {
     font-weight: normal;
   }
@@ -36,10 +40,6 @@ body {
     margin-top: 0;
     font-size: 30px;
     margin-bottom: -20px;
-  }
-
-  #celebrate {
-    margin-bottom: -16px;
   }
 
   #date {
@@ -55,24 +55,27 @@ body {
    margin-bottom: 0px;
   }
 
-  /* location and info */
-  p {
-    font-size: 30px;
+  /*
+  - location
+  - email
+  */
+  a {
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.75px;
+    text-underline-offset: 2.5px;
   }
 
-  #location {
+  p#location {
     font-size: 22px;
 
     a {
       color: var(--text);
-      text-decoration: none;
       line-height: 1.2;
     }
   }
 
   p#info {
-    margin-top: 24px;
+    margin-top: 14px;
     font-size: 14px;
-    text-decoration: none;
   }
 }
