@@ -4,8 +4,8 @@ function App() {
   var colors = [
     // gray/green
     {
-      bg: "#D6D8CC",
       text: "#BC9D38",
+      bg: "#D6D8CC",
     },
     // orange/light blue
     {
@@ -20,7 +20,7 @@ function App() {
     // mustard green/light blue
     {
       bg: "#BEB733",
-      text: "#E0E5E9",
+      text: "#e1e6eb",
     },
   ];
 
