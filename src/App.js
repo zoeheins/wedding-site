@@ -9,8 +9,8 @@ function App() {
     },
     // orange/light blue
     {
-      text: "#a9ded3",
-      bg: "#CD7C44",
+      text: "#a6ede4",
+      bg: "#e38a4d",
     },
     // dark green/bright green
     {
@@ -32,6 +32,8 @@ function App() {
   };
 
   const [textColor, bgColor] = getColors(colors.length);
+  // const textColor = colors[1].text;
+  // const bgColor = colors[1].bg;
 
   const style = {
     color: textColor,
