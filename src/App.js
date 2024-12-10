@@ -52,7 +52,7 @@ function App() {
       </p>
       <p id="info">
         <p id="info" style={{ marginBottom: "2px" }}>
-          IF YOU HAVE QUESTIONS, PLEASE EMAIL <br />
+          PLEASE DIRECT QUESTIONS TO <br />
         </p>
         <a href="mailto:nbengston.zheins@gmail.com" style={style}>
           NBENGTSON.ZHEINS@GMAIL.COM
